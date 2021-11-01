@@ -1,3 +1,29 @@
+MiniEAP-GDUFS
+=======
+
+修改自 [@updateing](https://github.com/updateing)/**[minieap](https://github.com/updateing/minieap)**，使其适用于 GDUFS。
+
+基于南校区修改，北校区请自行测试可用性。
+
+在 OpenWrt 上使用，请参见：
+- **[openwrt-minieap-gdufs](https://github.com/jimlee2002/openwrt-minieap-gdufs)**
+- [@ysc3839](https://github.com/ysc3839)/**[luci-proto-minieap](https://github.com/ysc3839/luci-proto-minieap)**
+
+**仅作为学习EAP， EAPOL协议使用，请勿用于其他用途，造成后果自负。**
+
+有问题欢迎提出 Issues。
+
+## 使用示例
+
+```
+minieap -u <用户名> -p <密码> -n <wan口对应网口> --module rjv3 -e 60 -d 1 --service default
+```
+
+更多参数请参见下方介绍与 `minieap -h` 的输出。
+
+以下是原仓库 README 内容：
+
+---
 MiniEAP
 =======
 
