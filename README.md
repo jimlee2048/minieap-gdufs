@@ -1,6 +1,8 @@
 MiniEAP-GDUFS
 =======
 
+**⚠已知问题：在某些区域无法通过认证，详见[issue#1](https://github.com/jimlee2002/minieap-gdufs/issues/1)**
+
 修改自 [@updateing](https://github.com/updateing)/**[minieap](https://github.com/updateing/minieap)**，使其适用于 GDUFS。
 
 基于南校区修改，北校区请自行测试可用性。
